@@ -15,7 +15,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-   
+    background-color: #090e14;   
 }
 
 .leftmain{
@@ -231,6 +231,7 @@ body{
     height: 250px;
   }
 }
+
 
 
 
