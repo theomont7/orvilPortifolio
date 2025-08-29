@@ -143,18 +143,18 @@ body{
 @media (max-width: 430px) {
   .main {
     flex-direction: column;
-    height: auto; /* allow container to expand */
+    height: auto; 
     padding: 0;
     background-color: #090e14;
   }
 
   .leftmain {
     width: 100%;
-    height: auto; /* let padding-top work */
+    height: auto; 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px; /* lift pfp from top */
+    padding-top: 30px; /* changed from 20px → 30px */
   }
 
   .leftmain .pfp {
@@ -165,9 +165,9 @@ body{
 
   .rightmain {
     width: 100%;
-    height: auto; /* remove 100vh to allow padding-bottom */
+    height: auto; 
     text-align: center;
-    padding-bottom: 60px; /* space under icons */
+    padding-bottom: 50px; /* changed from 60px → 50px */
     margin: 0;
   }
 
@@ -192,7 +192,6 @@ body{
     margin: 5px;
   }
 
-  /* hide arrow / examples */
   .rightmain .myExamples,
   .rightmain .examples {
     display: none !important;
@@ -207,6 +206,8 @@ body{
     height: 220px;
   }
 }
+
+
 
 
 
