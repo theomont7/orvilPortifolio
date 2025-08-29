@@ -158,6 +158,7 @@ body{
   }
 
   .leftmain .pfp {
+    padding-top: 20px;
     width: 160px;
     height: 160px;
     margin: 0 auto;
@@ -167,7 +168,7 @@ body{
     width: 100%;
     height: auto; /* remove 100vh restriction */
     text-align: center;
-    padding-bottom: 70px; /* space under icons now works */
+    padding-bottom: 60px; /* space under icons now works */
     margin: 0;
   }
 
@@ -207,6 +208,7 @@ body{
     height: 220px;
   }
 }
+
 
 
 
