@@ -155,7 +155,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding-top: 20px; /* pushes pfp down a bit */
+    padding-top: 20px; /* space above pfp */
   }
 
   .leftmain .pfp {
@@ -169,7 +169,7 @@ body{
     height: auto; /* remove 100vh restriction */
     text-align: center;
     margin: 0;
-    padding-bottom: 60px; /* space under icons */
+    padding-bottom: 60px; /* space under icons now works */
   }
 
   .rightmain .name {
@@ -208,6 +208,8 @@ body{
     height: 220px;
   }
 }
+
+
 
 
 
