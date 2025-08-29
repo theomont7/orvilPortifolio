@@ -167,7 +167,7 @@ body{
     width: 100%;
     height: auto;
     text-align: center;
-     padding-bottom: 40px; /* use padding instead of margin */
+     padding-bottom: 60px; /* use padding instead of margin */
   
   }
 
@@ -232,6 +232,7 @@ body{
     height: 250px;
   }
 }
+
 
 
 
