@@ -141,7 +141,7 @@ body{
   .main {
     flex-direction: column;
     height: auto;
-    padding: 20px;
+    padding: 0px;
   }
 
   .leftmain {
@@ -200,6 +200,7 @@ body{
     height: 220px;
   }
 }
+
 
 
 
