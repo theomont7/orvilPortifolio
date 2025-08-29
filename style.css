@@ -151,7 +151,7 @@ body{
 
   .leftmain,
   .rightmain {
-    margin: 0 !important; /* override any auto margin from flex */
+    margin: 0 ; /* override any auto margin from flex */
   }
 }
   .leftmain {
@@ -212,6 +212,7 @@ body{
     height: 220px;
   }
 }
+
 
 
 
