@@ -146,8 +146,14 @@ body{
     flex-direction: column;
     height: auto;
     padding: 0;
+    gap: 0; /* remove flex spacing */
   }
 
+  .leftmain,
+  .rightmain {
+    margin: 0 !important; /* override any auto margin from flex */
+  }
+}
   .leftmain {
     width: 100%;
     height: auto;
@@ -206,6 +212,7 @@ body{
     height: 220px;
   }
 }
+
 
 
 
