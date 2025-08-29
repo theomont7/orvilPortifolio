@@ -140,21 +140,23 @@ body{
 
 /* iPhone / small devices */
 /* iPhone 12+ portrait (width ~390px, height ~844px) */
+/* iPhone / small devices */
 @media (max-width: 430px) {
   .main {
     flex-direction: column;
-    height: auto; 
+    height: auto; /* let container expand */
     padding: 0;
     background-color: #090e14;
   }
 
   .leftmain {
     width: 100%;
-    height: auto; 
+    height: auto; /* let padding work */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 30px; /* <--- 30px above pfp */
+    padding-top: 30px; /* space above profile pic */
+    margin: 0;
   }
 
   .leftmain .pfp {
@@ -165,9 +167,9 @@ body{
 
   .rightmain {
     width: 100%;
-    height: auto; 
+    height: auto; /* allow padding-bottom to work */
     text-align: center;
-    padding-bottom: 50px; /* <--- 50px below icons */
+    padding-bottom: 50px; /* space under icons */
     margin: 0;
   }
 
@@ -192,6 +194,7 @@ body{
     margin: 5px;
   }
 
+  /* Hide arrow and My Examples */
   .rightmain .myExamples,
   .rightmain .examples {
     display: none !important;
@@ -206,6 +209,8 @@ body{
     height: 220px;
   }
 }
+
+
 
 
 
