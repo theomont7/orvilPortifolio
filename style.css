@@ -136,9 +136,10 @@ body{
 
 
 /* iPhone / small devices */
+/* iPhone 12+ portrait (width ~390px, height ~844px) */
 @media (max-width: 430px) {
   .main {
-    flex-direction: column;       /* stack sections vertically */
+    flex-direction: column;
     height: auto;
     padding: 20px;
   }
@@ -146,12 +147,14 @@ body{
   .leftmain {
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   .leftmain .pfp {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto; /* center */
+    display: block;
   }
 
   .rightmain {
@@ -161,13 +164,17 @@ body{
   }
 
   .rightmain .name {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: 10px;
   }
 
   .rightmain .content {
     font-size: 1rem;
-    margin-bottom: 15px;
+    margin: 10px 0;
+  }
+
+  .rightmain .icons {
+    margin-top: 15px;
   }
 
   .rightmain .icons a {
@@ -177,44 +184,23 @@ body{
     margin: 5px;
   }
 
+  /* Hide "My examples" + arrow */
+  .rightmain .myExamples,
   .rightmain .examples {
-    font-size: 1.2rem;
+    display: none;
   }
 
+  /* Videos */
   .video-container {
     width: 95%;
-    margin: 30px auto;
+    margin: 20px auto;
   }
 
   .video-container iframe {
-    height: 200px;
+    height: 220px;
   }
 }
 
-/* iPhone landscape */
-@media (max-width: 850px) and (orientation: landscape) {
-  .main {
-    flex-direction: row;
-    padding: 10px;
-  }
-
-  .leftmain .pfp {
-    width: 200px;
-    height: 200px;
-  }
-
-  .rightmain .name {
-    font-size: 2.5rem;
-  }
-
-  .rightmain .content {
-    font-size: 1.2rem;
-  }
-
-  .video-container iframe {
-    height: 250px;
-  }
-}
 
 
 
