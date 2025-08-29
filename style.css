@@ -141,6 +141,7 @@ body{
 /* iPhone / small devices */
 /* iPhone 12+ portrait (width ~390px, height ~844px) */
 @media (max-width: 430px) {
+
   .main {
     flex-direction: column;
     height: auto;
@@ -167,8 +168,7 @@ body{
     width: 100%;
     height: auto;
     text-align: center;
-     padding-bottom: 70px; /* use padding instead of margin */
-  
+    padding-bottom: 70px; /* space under icons for videos */
   }
 
   .rightmain .name {
@@ -208,7 +208,7 @@ body{
   }
 }
 
-/* IPHONE LANDSCAPE / SMALL WIDTHS */
+/* iPhone landscape / small widths */
 @media (max-width: 850px) and (orientation: landscape) {
   .main {
     flex-direction: row;
@@ -232,6 +232,7 @@ body{
     height: 250px;
   }
 }
+
 
 
 
