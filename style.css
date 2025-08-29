@@ -146,24 +146,28 @@ body{
     flex-direction: column;
     height: auto;
     padding: 0;
-    gap: 0; /* remove flex spacing */
   }
 
-  .leftmain,
-  .rightmain {
+  .leftmain {
     width: 100%;
     height: auto;
-    margin: 0 !important; /* remove any inspector-added margin */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .leftmain .pfp {
     width: 160px;
     height: 160px;
-    margin: 0 auto; /* center */
+    margin: 0 auto;
   }
 
   .rightmain {
+    width: 100%;
+    height: auto;
     text-align: center;
+    margin-bottom: 40px; /* intentional spacing above videos */
   }
 
   .rightmain .name {
@@ -187,10 +191,9 @@ body{
     margin: 5px;
   }
 
-  /* Hide arrow + My Examples */
+  /* Hide arrow and My Examples */
   .rightmain .myExamples,
-  .rightmain .examples,
-  .rightmain img.arrow {  /* <-- make sure your arrow has a class "arrow" */
+  .rightmain .examples {
     display: none !important;
   }
 
@@ -201,6 +204,31 @@ body{
 
   .video-container iframe {
     height: 220px;
+  }
+}
+
+/* IPHONE LANDSCAPE / SMALL WIDTHS */
+@media (max-width: 850px) and (orientation: landscape) {
+  .main {
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .leftmain .pfp {
+    width: 200px;
+    height: 200px;
+  }
+
+  .rightmain .name {
+    font-size: 2.5rem;
+  }
+
+  .rightmain .content {
+    font-size: 1.2rem;
+  }
+
+  .video-container iframe {
+    height: 250px;
   }
 }
 
