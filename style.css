@@ -143,18 +143,19 @@ body{
 @media (max-width: 430px) {
   .main {
     flex-direction: column;
-    height: auto; 
+    height: auto; /* allow container to expand */
     padding: 0;
     background-color: #090e14;
   }
 
   .leftmain {
     width: 100%;
-    height: auto; /* let it expand */
+    height: auto; /* remove fixed height */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 30px; /* 30px space above pfp */
+    padding-top: 30px; /* <-- space above pfp */
+    padding-bottom: 0;
   }
 
   .leftmain .pfp {
@@ -165,9 +166,10 @@ body{
 
   .rightmain {
     width: 100%;
-    height: auto; /* let it expand */
+    height: auto; /* remove fixed height */
     text-align: center;
-    padding-bottom: 50px; /* 50px space under icons */
+    padding-bottom: 50px; /* <-- space under icons */
+    padding-top: 0;
     margin: 0;
   }
 
@@ -206,6 +208,8 @@ body{
     height: 220px;
   }
 }
+
+
 
 
 
