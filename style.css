@@ -59,6 +59,7 @@ body{
 }
 
 .leftmain .pfp {
+  display: block;
   margin-top: 20px;
  width: 500px;   
   height: 500px;       
@@ -203,6 +204,7 @@ body{
     height: 220px;
   }
 }
+
 
 
 
