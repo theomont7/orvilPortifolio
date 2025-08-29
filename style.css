@@ -152,12 +152,13 @@ body{
     width: 100%;
     height: auto;
     margin-bottom: 0;
+    margin: 0;
   }
 
   .leftmain .pfp {
     width: 160px;
     height: 160px;
-    margin: 0 auto; /* center */
+    margin: 0; /* center */
     display: block;
   }
 
@@ -205,6 +206,7 @@ body{
     height: 220px;
   }
 }
+
 
 
 
