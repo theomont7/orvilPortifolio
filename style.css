@@ -150,11 +150,11 @@ body{
 
   .leftmain {
     width: 100%;
-    height: auto; 
+    height: auto; /* let it expand */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 30px; /* changed from 20px → 30px */
+    padding-top: 30px; /* 30px space above pfp */
   }
 
   .leftmain .pfp {
@@ -165,9 +165,9 @@ body{
 
   .rightmain {
     width: 100%;
-    height: auto; 
+    height: auto; /* let it expand */
     text-align: center;
-    padding-bottom: 50px; /* changed from 60px → 50px */
+    padding-bottom: 50px; /* 50px space under icons */
     margin: 0;
   }
 
@@ -206,6 +206,8 @@ body{
     height: 220px;
   }
 }
+
+
 
 
 
