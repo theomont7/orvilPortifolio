@@ -151,7 +151,7 @@ body{
   .leftmain {
     width: 100%;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
   }
 
   .leftmain .pfp {
@@ -204,6 +204,7 @@ body{
     height: 220px;
   }
 }
+
 
 
 
