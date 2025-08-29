@@ -143,18 +143,17 @@ body{
 @media (max-width: 430px) {
   .main {
     flex-direction: column;
-    height: auto; /* let it expand with content */
+    height: auto; /* important: allow container to expand */
     padding: 0;
-    background-color: #090e14;   
+    background-color: #090e14;
   }
 
   .leftmain {
     width: 100%;
-    height: auto; /* remove 100vh restriction */
+    height: auto; /* allow padding-top to work */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
     padding-top: 20px; /* space above pfp */
   }
 
@@ -166,10 +165,10 @@ body{
 
   .rightmain {
     width: 100%;
-    height: auto; /* remove 100vh restriction */
+    height: auto; /* allow padding-bottom to work */
     text-align: center;
+    padding-bottom: 60px; /* space under icons */
     margin: 0;
-    padding-bottom: 60px; /* space under icons now works */
   }
 
   .rightmain .name {
@@ -193,7 +192,6 @@ body{
     margin: 5px;
   }
 
-  /* Hide arrow and My Examples */
   .rightmain .myExamples,
   .rightmain .examples {
     display: none !important;
@@ -208,6 +206,7 @@ body{
     height: 220px;
   }
 }
+
 
 
 
