@@ -167,7 +167,7 @@ body{
     width: 100%;
     height: auto;
     text-align: center;
-    margin-bottom: 40px; /* intentional spacing above videos */
+  
   }
 
   .rightmain .name {
@@ -231,6 +231,7 @@ body{
     height: 250px;
   }
 }
+
 
 
 
